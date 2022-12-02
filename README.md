@@ -1,3 +1,3 @@
 # team ZK
-assalammualaikum semua
+assalammualaikum semua,
 waalaikumussalam semua
