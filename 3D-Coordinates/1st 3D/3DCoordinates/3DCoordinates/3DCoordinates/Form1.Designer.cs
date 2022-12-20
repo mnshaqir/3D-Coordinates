@@ -1,6 +1,6 @@
 ﻿namespace _3DCoordinates
 {
-    partial class CylindricalToCartesian
+    partial class page1
     {
         /// <summary>
         /// Required designer variable.
@@ -30,14 +30,14 @@
         {
             this.Tab1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.textBox4 = new System.Windows.Forms.TextBox();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.textBox6 = new System.Windows.Forms.TextBox();
@@ -71,6 +71,29 @@
             this.tabPage1.Text = "Cylin2Carte";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(102, 146);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(203, 20);
+            this.textBox2.TabIndex = 2;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(105, 89);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(107, 26);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Convert";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(102, 40);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(203, 20);
+            this.textBox1.TabIndex = 0;
+            // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.textBox3);
@@ -83,42 +106,6 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Cart2Sphe";
             this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.Controls.Add(this.textBox5);
-            this.tabPage3.Controls.Add(this.button3);
-            this.tabPage3.Controls.Add(this.textBox6);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(777, 409);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Sphe2Cylin";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(102, 40);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(203, 20);
-            this.textBox1.TabIndex = 0;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(105, 89);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(107, 26);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Convert";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(102, 146);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(203, 20);
-            this.textBox2.TabIndex = 2;
             // 
             // textBox3
             // 
@@ -143,6 +130,19 @@
             this.textBox4.Size = new System.Drawing.Size(203, 20);
             this.textBox4.TabIndex = 3;
             // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.textBox5);
+            this.tabPage3.Controls.Add(this.button3);
+            this.tabPage3.Controls.Add(this.textBox6);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(777, 409);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Sphe2Cylin";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(42, 133);
@@ -166,13 +166,13 @@
             this.textBox6.Size = new System.Drawing.Size(203, 20);
             this.textBox6.TabIndex = 3;
             // 
-            // CylindricalToCartesian
+            // page1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Tab1);
-            this.Name = "CylindricalToCartesian";
+            this.Name = "page1";
             this.Text = "3D COORDINATES CONVERTER";
             this.Load += new System.EventHandler(this.CylindricalToCartesian_Load);
             this.Tab1.ResumeLayout(false);

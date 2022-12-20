@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace _3DCoordinates
 {
-    public partial class page1 : Form
+    public partial class Form1 : Form
     {
-        public page1()
+        public Form1()
         {
             InitializeComponent();
-        }
-
-        private void CylindricalToCartesian_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

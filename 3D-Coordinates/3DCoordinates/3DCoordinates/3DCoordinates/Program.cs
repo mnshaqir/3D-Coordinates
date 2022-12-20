@@ -16,7 +16,7 @@ namespace _3DCoordinates
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new page1());
+            Application.Run(new Form1());
         }
     }
 }
