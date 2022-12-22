@@ -55,6 +55,7 @@
     <Compile Include="Cartesian.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Spherical.cs" />
     <EmbeddedResource Include="3D Coordinates.resx">
       <DependentUpon>3D Coordinates.cs</DependentUpon>
     </EmbeddedResource>

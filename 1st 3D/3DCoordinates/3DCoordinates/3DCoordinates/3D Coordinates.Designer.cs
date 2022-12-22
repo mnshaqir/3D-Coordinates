@@ -34,65 +34,66 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.textZ1 = new System.Windows.Forms.TextBox();
+            this.textY1 = new System.Windows.Forms.TextBox();
+            this.textX1 = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.textPhi1 = new System.Windows.Forms.TextBox();
+            this.textTheta1 = new System.Windows.Forms.TextBox();
+            this.textRho1 = new System.Windows.Forms.TextBox();
             this.CartesianLabel = new System.Windows.Forms.Label();
             this.hScrollBar3 = new System.Windows.Forms.HScrollBar();
-            this.Carte2Cylind = new System.Windows.Forms.Button();
-            this.Carte2Sphere = new System.Windows.Forms.Button();
+            this.toCylin1 = new System.Windows.Forms.Button();
+            this.toSphe1 = new System.Windows.Forms.Button();
             this.label36 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.textzz1 = new System.Windows.Forms.TextBox();
+            this.textTeta1 = new System.Windows.Forms.TextBox();
+            this.textR1 = new System.Windows.Forms.TextBox();
             this.label39 = new System.Windows.Forms.Label();
             this.Cylindrical = new System.Windows.Forms.TabPage();
             this.label23 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.textzz2 = new System.Windows.Forms.TextBox();
+            this.textY2 = new System.Windows.Forms.TextBox();
+            this.textX2 = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.textZ2 = new System.Windows.Forms.TextBox();
+            this.textTeta2 = new System.Windows.Forms.TextBox();
+            this.textR2 = new System.Windows.Forms.TextBox();
             this.label35 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
+            this.textPhi2 = new System.Windows.Forms.TextBox();
+            this.textTheta2 = new System.Windows.Forms.TextBox();
+            this.textRho2 = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.hScrollBar2 = new System.Windows.Forms.HScrollBar();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.toCart2 = new System.Windows.Forms.Button();
+            this.toSphe2 = new System.Windows.Forms.Button();
             this.Spherical = new System.Windows.Forms.TabPage();
+            this.MsgLabel = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.hScrollBar1 = new System.Windows.Forms.HScrollBar();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.toCylin3 = new System.Windows.Forms.Button();
+            this.toCart3 = new System.Windows.Forms.Button();
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.textBox26 = new System.Windows.Forms.TextBox();
-            this.textBox27 = new System.Windows.Forms.TextBox();
+            this.textzz3 = new System.Windows.Forms.TextBox();
+            this.textTeta3 = new System.Windows.Forms.TextBox();
+            this.textR3 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -101,12 +102,12 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textZ3 = new System.Windows.Forms.TextBox();
+            this.textY3 = new System.Windows.Forms.TextBox();
+            this.textX3 = new System.Windows.Forms.TextBox();
+            this.textPhi3 = new System.Windows.Forms.TextBox();
+            this.textTheta3 = new System.Windows.Forms.TextBox();
+            this.textRho3 = new System.Windows.Forms.TextBox();
             this.Tab1.SuspendLayout();
             this.Cartesian.SuspendLayout();
             this.Cylindrical.SuspendLayout();
@@ -131,26 +132,26 @@
             this.Cartesian.Controls.Add(this.label10);
             this.Cartesian.Controls.Add(this.label11);
             this.Cartesian.Controls.Add(this.label12);
-            this.Cartesian.Controls.Add(this.textBox1);
-            this.Cartesian.Controls.Add(this.textBox2);
-            this.Cartesian.Controls.Add(this.textBox11);
+            this.Cartesian.Controls.Add(this.textZ1);
+            this.Cartesian.Controls.Add(this.textY1);
+            this.Cartesian.Controls.Add(this.textX1);
             this.Cartesian.Controls.Add(this.label13);
             this.Cartesian.Controls.Add(this.label14);
             this.Cartesian.Controls.Add(this.label15);
             this.Cartesian.Controls.Add(this.label16);
-            this.Cartesian.Controls.Add(this.textBox12);
-            this.Cartesian.Controls.Add(this.textBox13);
-            this.Cartesian.Controls.Add(this.textBox14);
+            this.Cartesian.Controls.Add(this.textPhi1);
+            this.Cartesian.Controls.Add(this.textTheta1);
+            this.Cartesian.Controls.Add(this.textRho1);
             this.Cartesian.Controls.Add(this.CartesianLabel);
             this.Cartesian.Controls.Add(this.hScrollBar3);
-            this.Cartesian.Controls.Add(this.Carte2Cylind);
-            this.Cartesian.Controls.Add(this.Carte2Sphere);
+            this.Cartesian.Controls.Add(this.toCylin1);
+            this.Cartesian.Controls.Add(this.toSphe1);
             this.Cartesian.Controls.Add(this.label36);
             this.Cartesian.Controls.Add(this.label37);
             this.Cartesian.Controls.Add(this.label38);
-            this.Cartesian.Controls.Add(this.textBox15);
-            this.Cartesian.Controls.Add(this.textBox16);
-            this.Cartesian.Controls.Add(this.textBox17);
+            this.Cartesian.Controls.Add(this.textzz1);
+            this.Cartesian.Controls.Add(this.textTeta1);
+            this.Cartesian.Controls.Add(this.textR1);
             this.Cartesian.Controls.Add(this.label39);
             this.Cartesian.Location = new System.Drawing.Point(4, 25);
             this.Cartesian.Margin = new System.Windows.Forms.Padding(4);
@@ -202,29 +203,29 @@
             this.label12.TabIndex = 93;
             this.label12.Text = "( x";
             // 
-            // textBox1
+            // textZ1
             // 
-            this.textBox1.Location = new System.Drawing.Point(580, 168);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(107, 22);
-            this.textBox1.TabIndex = 92;
+            this.textZ1.Location = new System.Drawing.Point(580, 168);
+            this.textZ1.Margin = new System.Windows.Forms.Padding(4);
+            this.textZ1.Name = "textZ1";
+            this.textZ1.Size = new System.Drawing.Size(107, 22);
+            this.textZ1.TabIndex = 92;
             // 
-            // textBox2
+            // textY1
             // 
-            this.textBox2.Location = new System.Drawing.Point(426, 168);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(107, 22);
-            this.textBox2.TabIndex = 91;
+            this.textY1.Location = new System.Drawing.Point(426, 168);
+            this.textY1.Margin = new System.Windows.Forms.Padding(4);
+            this.textY1.Name = "textY1";
+            this.textY1.Size = new System.Drawing.Size(107, 22);
+            this.textY1.TabIndex = 91;
             // 
-            // textBox11
+            // textX1
             // 
-            this.textBox11.Location = new System.Drawing.Point(272, 168);
-            this.textBox11.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(107, 22);
-            this.textBox11.TabIndex = 90;
+            this.textX1.Location = new System.Drawing.Point(268, 168);
+            this.textX1.Margin = new System.Windows.Forms.Padding(4);
+            this.textX1.Name = "textX1";
+            this.textX1.Size = new System.Drawing.Size(107, 22);
+            this.textX1.TabIndex = 90;
             // 
             // label13
             // 
@@ -266,29 +267,29 @@
             this.label16.TabIndex = 86;
             this.label16.Text = " θ";
             // 
-            // textBox12
+            // textPhi1
             // 
-            this.textBox12.Location = new System.Drawing.Point(853, 359);
-            this.textBox12.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(107, 22);
-            this.textBox12.TabIndex = 85;
+            this.textPhi1.Location = new System.Drawing.Point(853, 359);
+            this.textPhi1.Margin = new System.Windows.Forms.Padding(4);
+            this.textPhi1.Name = "textPhi1";
+            this.textPhi1.Size = new System.Drawing.Size(107, 22);
+            this.textPhi1.TabIndex = 85;
             // 
-            // textBox13
+            // textTheta1
             // 
-            this.textBox13.Location = new System.Drawing.Point(699, 359);
-            this.textBox13.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(107, 22);
-            this.textBox13.TabIndex = 84;
+            this.textTheta1.Location = new System.Drawing.Point(699, 359);
+            this.textTheta1.Margin = new System.Windows.Forms.Padding(4);
+            this.textTheta1.Name = "textTheta1";
+            this.textTheta1.Size = new System.Drawing.Size(107, 22);
+            this.textTheta1.TabIndex = 84;
             // 
-            // textBox14
+            // textRho1
             // 
-            this.textBox14.Location = new System.Drawing.Point(545, 359);
-            this.textBox14.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(107, 22);
-            this.textBox14.TabIndex = 83;
+            this.textRho1.Location = new System.Drawing.Point(545, 359);
+            this.textRho1.Margin = new System.Windows.Forms.Padding(4);
+            this.textRho1.Name = "textRho1";
+            this.textRho1.Size = new System.Drawing.Size(107, 22);
+            this.textRho1.TabIndex = 83;
             // 
             // CartesianLabel
             // 
@@ -306,31 +307,31 @@
             this.hScrollBar3.Size = new System.Drawing.Size(8, 8);
             this.hScrollBar3.TabIndex = 81;
             // 
-            // Carte2Cylind
+            // toCylin1
             // 
-            this.Carte2Cylind.BackColor = System.Drawing.Color.Transparent;
-            this.Carte2Cylind.Location = new System.Drawing.Point(184, 281);
-            this.Carte2Cylind.Margin = new System.Windows.Forms.Padding(4);
-            this.Carte2Cylind.Name = "Carte2Cylind";
-            this.Carte2Cylind.Size = new System.Drawing.Size(160, 28);
-            this.Carte2Cylind.TabIndex = 80;
-            this.Carte2Cylind.Text = "Convert To Cylindrical";
-            this.Carte2Cylind.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Carte2Cylind.UseVisualStyleBackColor = false;
-            this.Carte2Cylind.Click += new System.EventHandler(this.Carte2Cylind_Click);
+            this.toCylin1.BackColor = System.Drawing.Color.Transparent;
+            this.toCylin1.Location = new System.Drawing.Point(184, 281);
+            this.toCylin1.Margin = new System.Windows.Forms.Padding(4);
+            this.toCylin1.Name = "toCylin1";
+            this.toCylin1.Size = new System.Drawing.Size(160, 28);
+            this.toCylin1.TabIndex = 80;
+            this.toCylin1.Text = "Convert To Cylindrical";
+            this.toCylin1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.toCylin1.UseVisualStyleBackColor = false;
+            this.toCylin1.Click += new System.EventHandler(this.toCylin1_Click);
             // 
-            // Carte2Sphere
+            // toSphe1
             // 
-            this.Carte2Sphere.BackColor = System.Drawing.Color.Transparent;
-            this.Carte2Sphere.Location = new System.Drawing.Point(660, 282);
-            this.Carte2Sphere.Margin = new System.Windows.Forms.Padding(4);
-            this.Carte2Sphere.Name = "Carte2Sphere";
-            this.Carte2Sphere.Size = new System.Drawing.Size(160, 27);
-            this.Carte2Sphere.TabIndex = 79;
-            this.Carte2Sphere.Text = "Convert To Spherical";
-            this.Carte2Sphere.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Carte2Sphere.UseVisualStyleBackColor = false;
-            this.Carte2Sphere.Click += new System.EventHandler(this.Carte2Sphere_Click);
+            this.toSphe1.BackColor = System.Drawing.Color.Transparent;
+            this.toSphe1.Location = new System.Drawing.Point(660, 282);
+            this.toSphe1.Margin = new System.Windows.Forms.Padding(4);
+            this.toSphe1.Name = "toSphe1";
+            this.toSphe1.Size = new System.Drawing.Size(160, 27);
+            this.toSphe1.TabIndex = 79;
+            this.toSphe1.Text = "Convert To Spherical";
+            this.toSphe1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.toSphe1.UseVisualStyleBackColor = false;
+            this.toSphe1.Click += new System.EventHandler(this.toSphe1_Click);
             // 
             // label36
             // 
@@ -362,29 +363,29 @@
             this.label38.TabIndex = 76;
             this.label38.Text = " θ";
             // 
-            // textBox15
+            // textzz1
             // 
-            this.textBox15.Location = new System.Drawing.Point(368, 359);
-            this.textBox15.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(107, 22);
-            this.textBox15.TabIndex = 75;
+            this.textzz1.Location = new System.Drawing.Point(368, 359);
+            this.textzz1.Margin = new System.Windows.Forms.Padding(4);
+            this.textzz1.Name = "textzz1";
+            this.textzz1.Size = new System.Drawing.Size(107, 22);
+            this.textzz1.TabIndex = 75;
             // 
-            // textBox16
+            // textTeta1
             // 
-            this.textBox16.Location = new System.Drawing.Point(214, 359);
-            this.textBox16.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(107, 22);
-            this.textBox16.TabIndex = 74;
+            this.textTeta1.Location = new System.Drawing.Point(214, 359);
+            this.textTeta1.Margin = new System.Windows.Forms.Padding(4);
+            this.textTeta1.Name = "textTeta1";
+            this.textTeta1.Size = new System.Drawing.Size(107, 22);
+            this.textTeta1.TabIndex = 74;
             // 
-            // textBox17
+            // textR1
             // 
-            this.textBox17.Location = new System.Drawing.Point(60, 359);
-            this.textBox17.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(107, 22);
-            this.textBox17.TabIndex = 73;
+            this.textR1.Location = new System.Drawing.Point(60, 359);
+            this.textR1.Margin = new System.Windows.Forms.Padding(4);
+            this.textR1.Name = "textR1";
+            this.textR1.Size = new System.Drawing.Size(107, 22);
+            this.textR1.TabIndex = 73;
             // 
             // label39
             // 
@@ -402,27 +403,27 @@
             this.Cylindrical.Controls.Add(this.label25);
             this.Cylindrical.Controls.Add(this.label26);
             this.Cylindrical.Controls.Add(this.label32);
-            this.Cylindrical.Controls.Add(this.textBox19);
-            this.Cylindrical.Controls.Add(this.textBox20);
-            this.Cylindrical.Controls.Add(this.textBox21);
+            this.Cylindrical.Controls.Add(this.textzz2);
+            this.Cylindrical.Controls.Add(this.textY2);
+            this.Cylindrical.Controls.Add(this.textX2);
             this.Cylindrical.Controls.Add(this.label19);
             this.Cylindrical.Controls.Add(this.label20);
             this.Cylindrical.Controls.Add(this.label21);
-            this.Cylindrical.Controls.Add(this.textBox3);
-            this.Cylindrical.Controls.Add(this.textBox4);
-            this.Cylindrical.Controls.Add(this.textBox18);
+            this.Cylindrical.Controls.Add(this.textZ2);
+            this.Cylindrical.Controls.Add(this.textTeta2);
+            this.Cylindrical.Controls.Add(this.textR2);
             this.Cylindrical.Controls.Add(this.label35);
             this.Cylindrical.Controls.Add(this.label22);
             this.Cylindrical.Controls.Add(this.label24);
             this.Cylindrical.Controls.Add(this.label33);
             this.Cylindrical.Controls.Add(this.label34);
-            this.Cylindrical.Controls.Add(this.textBox22);
-            this.Cylindrical.Controls.Add(this.textBox23);
-            this.Cylindrical.Controls.Add(this.textBox24);
+            this.Cylindrical.Controls.Add(this.textPhi2);
+            this.Cylindrical.Controls.Add(this.textTheta2);
+            this.Cylindrical.Controls.Add(this.textRho2);
             this.Cylindrical.Controls.Add(this.label18);
             this.Cylindrical.Controls.Add(this.hScrollBar2);
-            this.Cylindrical.Controls.Add(this.button2);
-            this.Cylindrical.Controls.Add(this.button5);
+            this.Cylindrical.Controls.Add(this.toCart2);
+            this.Cylindrical.Controls.Add(this.toSphe2);
             this.Cylindrical.Location = new System.Drawing.Point(4, 25);
             this.Cylindrical.Margin = new System.Windows.Forms.Padding(4);
             this.Cylindrical.Name = "Cylindrical";
@@ -473,29 +474,29 @@
             this.label32.TabIndex = 82;
             this.label32.Text = "( x";
             // 
-            // textBox19
+            // textzz2
             // 
-            this.textBox19.Location = new System.Drawing.Point(382, 353);
-            this.textBox19.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(107, 22);
-            this.textBox19.TabIndex = 81;
+            this.textzz2.Location = new System.Drawing.Point(382, 353);
+            this.textzz2.Margin = new System.Windows.Forms.Padding(4);
+            this.textzz2.Name = "textzz2";
+            this.textzz2.Size = new System.Drawing.Size(107, 22);
+            this.textzz2.TabIndex = 81;
             // 
-            // textBox20
+            // textY2
             // 
-            this.textBox20.Location = new System.Drawing.Point(228, 353);
-            this.textBox20.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(107, 22);
-            this.textBox20.TabIndex = 80;
+            this.textY2.Location = new System.Drawing.Point(228, 353);
+            this.textY2.Margin = new System.Windows.Forms.Padding(4);
+            this.textY2.Name = "textY2";
+            this.textY2.Size = new System.Drawing.Size(107, 22);
+            this.textY2.TabIndex = 80;
             // 
-            // textBox21
+            // textX2
             // 
-            this.textBox21.Location = new System.Drawing.Point(74, 353);
-            this.textBox21.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(107, 22);
-            this.textBox21.TabIndex = 79;
+            this.textX2.Location = new System.Drawing.Point(74, 353);
+            this.textX2.Margin = new System.Windows.Forms.Padding(4);
+            this.textX2.Name = "textX2";
+            this.textX2.Size = new System.Drawing.Size(107, 22);
+            this.textX2.TabIndex = 79;
             // 
             // label19
             // 
@@ -527,29 +528,29 @@
             this.label21.TabIndex = 76;
             this.label21.Text = " θ";
             // 
-            // textBox3
+            // textZ2
             // 
-            this.textBox3.Location = new System.Drawing.Point(590, 163);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(107, 22);
-            this.textBox3.TabIndex = 75;
+            this.textZ2.Location = new System.Drawing.Point(590, 163);
+            this.textZ2.Margin = new System.Windows.Forms.Padding(4);
+            this.textZ2.Name = "textZ2";
+            this.textZ2.Size = new System.Drawing.Size(107, 22);
+            this.textZ2.TabIndex = 75;
             // 
-            // textBox4
+            // textTeta2
             // 
-            this.textBox4.Location = new System.Drawing.Point(436, 164);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(107, 22);
-            this.textBox4.TabIndex = 74;
+            this.textTeta2.Location = new System.Drawing.Point(436, 164);
+            this.textTeta2.Margin = new System.Windows.Forms.Padding(4);
+            this.textTeta2.Name = "textTeta2";
+            this.textTeta2.Size = new System.Drawing.Size(107, 22);
+            this.textTeta2.TabIndex = 74;
             // 
-            // textBox18
+            // textR2
             // 
-            this.textBox18.Location = new System.Drawing.Point(282, 163);
-            this.textBox18.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(107, 22);
-            this.textBox18.TabIndex = 73;
+            this.textR2.Location = new System.Drawing.Point(282, 163);
+            this.textR2.Margin = new System.Windows.Forms.Padding(4);
+            this.textR2.Name = "textR2";
+            this.textR2.Size = new System.Drawing.Size(107, 22);
+            this.textR2.TabIndex = 73;
             // 
             // label35
             // 
@@ -601,29 +602,29 @@
             this.label34.TabIndex = 61;
             this.label34.Text = " θ";
             // 
-            // textBox22
+            // textPhi2
             // 
-            this.textBox22.Location = new System.Drawing.Point(858, 354);
-            this.textBox22.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(107, 22);
-            this.textBox22.TabIndex = 60;
+            this.textPhi2.Location = new System.Drawing.Point(858, 354);
+            this.textPhi2.Margin = new System.Windows.Forms.Padding(4);
+            this.textPhi2.Name = "textPhi2";
+            this.textPhi2.Size = new System.Drawing.Size(107, 22);
+            this.textPhi2.TabIndex = 60;
             // 
-            // textBox23
+            // textTheta2
             // 
-            this.textBox23.Location = new System.Drawing.Point(704, 354);
-            this.textBox23.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(107, 22);
-            this.textBox23.TabIndex = 59;
+            this.textTheta2.Location = new System.Drawing.Point(704, 354);
+            this.textTheta2.Margin = new System.Windows.Forms.Padding(4);
+            this.textTheta2.Name = "textTheta2";
+            this.textTheta2.Size = new System.Drawing.Size(107, 22);
+            this.textTheta2.TabIndex = 59;
             // 
-            // textBox24
+            // textRho2
             // 
-            this.textBox24.Location = new System.Drawing.Point(550, 354);
-            this.textBox24.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(107, 22);
-            this.textBox24.TabIndex = 58;
+            this.textRho2.Location = new System.Drawing.Point(550, 354);
+            this.textRho2.Margin = new System.Windows.Forms.Padding(4);
+            this.textRho2.Name = "textRho2";
+            this.textRho2.Size = new System.Drawing.Size(107, 22);
+            this.textRho2.TabIndex = 58;
             // 
             // label18
             // 
@@ -641,43 +642,46 @@
             this.hScrollBar2.Size = new System.Drawing.Size(8, 8);
             this.hScrollBar2.TabIndex = 56;
             // 
-            // button2
+            // toCart2
             // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.Location = new System.Drawing.Point(189, 276);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(160, 28);
-            this.button2.TabIndex = 55;
-            this.button2.Text = "Convert To Cartesian";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button2.UseVisualStyleBackColor = false;
+            this.toCart2.BackColor = System.Drawing.Color.Transparent;
+            this.toCart2.Location = new System.Drawing.Point(189, 276);
+            this.toCart2.Margin = new System.Windows.Forms.Padding(4);
+            this.toCart2.Name = "toCart2";
+            this.toCart2.Size = new System.Drawing.Size(160, 28);
+            this.toCart2.TabIndex = 55;
+            this.toCart2.Text = "Convert To Cartesian";
+            this.toCart2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.toCart2.UseVisualStyleBackColor = false;
+            this.toCart2.Click += new System.EventHandler(this.toCart2_Click);
             // 
-            // button5
+            // toSphe2
             // 
-            this.button5.BackColor = System.Drawing.Color.Transparent;
-            this.button5.Location = new System.Drawing.Point(665, 277);
-            this.button5.Margin = new System.Windows.Forms.Padding(4);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(160, 27);
-            this.button5.TabIndex = 54;
-            this.button5.Text = "Convert To Spherical";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button5.UseVisualStyleBackColor = false;
+            this.toSphe2.BackColor = System.Drawing.Color.Transparent;
+            this.toSphe2.Location = new System.Drawing.Point(665, 277);
+            this.toSphe2.Margin = new System.Windows.Forms.Padding(4);
+            this.toSphe2.Name = "toSphe2";
+            this.toSphe2.Size = new System.Drawing.Size(160, 27);
+            this.toSphe2.TabIndex = 54;
+            this.toSphe2.Text = "Convert To Spherical";
+            this.toSphe2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.toSphe2.UseVisualStyleBackColor = false;
+            this.toSphe2.Click += new System.EventHandler(this.toSphe2_Click);
             // 
             // Spherical
             // 
+            this.Spherical.Controls.Add(this.MsgLabel);
             this.Spherical.Controls.Add(this.label31);
             this.Spherical.Controls.Add(this.hScrollBar1);
-            this.Spherical.Controls.Add(this.button3);
-            this.Spherical.Controls.Add(this.button6);
+            this.Spherical.Controls.Add(this.toCylin3);
+            this.Spherical.Controls.Add(this.toCart3);
             this.Spherical.Controls.Add(this.label27);
             this.Spherical.Controls.Add(this.label28);
             this.Spherical.Controls.Add(this.label29);
             this.Spherical.Controls.Add(this.label30);
-            this.Spherical.Controls.Add(this.textBox25);
-            this.Spherical.Controls.Add(this.textBox26);
-            this.Spherical.Controls.Add(this.textBox27);
+            this.Spherical.Controls.Add(this.textzz3);
+            this.Spherical.Controls.Add(this.textTeta3);
+            this.Spherical.Controls.Add(this.textR3);
             this.Spherical.Controls.Add(this.label8);
             this.Spherical.Controls.Add(this.label7);
             this.Spherical.Controls.Add(this.label6);
@@ -686,12 +690,12 @@
             this.Spherical.Controls.Add(this.label3);
             this.Spherical.Controls.Add(this.label2);
             this.Spherical.Controls.Add(this.label1);
-            this.Spherical.Controls.Add(this.textBox10);
-            this.Spherical.Controls.Add(this.textBox9);
-            this.Spherical.Controls.Add(this.textBox8);
-            this.Spherical.Controls.Add(this.textBox7);
-            this.Spherical.Controls.Add(this.textBox5);
-            this.Spherical.Controls.Add(this.textBox6);
+            this.Spherical.Controls.Add(this.textZ3);
+            this.Spherical.Controls.Add(this.textY3);
+            this.Spherical.Controls.Add(this.textX3);
+            this.Spherical.Controls.Add(this.textPhi3);
+            this.Spherical.Controls.Add(this.textTheta3);
+            this.Spherical.Controls.Add(this.textRho3);
             this.Spherical.Location = new System.Drawing.Point(4, 25);
             this.Spherical.Margin = new System.Windows.Forms.Padding(4);
             this.Spherical.Name = "Spherical";
@@ -701,6 +705,16 @@
             this.Spherical.Text = "Spherical";
             this.Spherical.UseVisualStyleBackColor = true;
             this.Spherical.Click += new System.EventHandler(this.Spherical_Click);
+            // 
+            // MsgLabel
+            // 
+            this.MsgLabel.AutoSize = true;
+            this.MsgLabel.Location = new System.Drawing.Point(336, 402);
+            this.MsgLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.MsgLabel.Name = "MsgLabel";
+            this.MsgLabel.Size = new System.Drawing.Size(73, 17);
+            this.MsgLabel.TabIndex = 33;
+            this.MsgLabel.Text = "Message: ";
             // 
             // label31
             // 
@@ -718,29 +732,31 @@
             this.hScrollBar1.Size = new System.Drawing.Size(8, 8);
             this.hScrollBar1.TabIndex = 31;
             // 
-            // button3
+            // toCylin3
             // 
-            this.button3.BackColor = System.Drawing.Color.Transparent;
-            this.button3.Location = new System.Drawing.Point(187, 250);
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(160, 28);
-            this.button3.TabIndex = 30;
-            this.button3.Text = "Convert To Cylindrical";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button3.UseVisualStyleBackColor = false;
+            this.toCylin3.BackColor = System.Drawing.Color.Transparent;
+            this.toCylin3.Location = new System.Drawing.Point(187, 250);
+            this.toCylin3.Margin = new System.Windows.Forms.Padding(4);
+            this.toCylin3.Name = "toCylin3";
+            this.toCylin3.Size = new System.Drawing.Size(160, 28);
+            this.toCylin3.TabIndex = 30;
+            this.toCylin3.Text = "Convert To Cylindrical";
+            this.toCylin3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.toCylin3.UseVisualStyleBackColor = false;
+            this.toCylin3.Click += new System.EventHandler(this.toCylin3_Click);
             // 
-            // button6
+            // toCart3
             // 
-            this.button6.BackColor = System.Drawing.Color.Transparent;
-            this.button6.Location = new System.Drawing.Point(663, 251);
-            this.button6.Margin = new System.Windows.Forms.Padding(4);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(160, 27);
-            this.button6.TabIndex = 25;
-            this.button6.Text = "Convert To Cartesian";
-            this.button6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button6.UseVisualStyleBackColor = false;
+            this.toCart3.BackColor = System.Drawing.Color.Transparent;
+            this.toCart3.Location = new System.Drawing.Point(663, 251);
+            this.toCart3.Margin = new System.Windows.Forms.Padding(4);
+            this.toCart3.Name = "toCart3";
+            this.toCart3.Size = new System.Drawing.Size(160, 27);
+            this.toCart3.TabIndex = 25;
+            this.toCart3.Text = "Convert To Cartesian";
+            this.toCart3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.toCart3.UseVisualStyleBackColor = false;
+            this.toCart3.Click += new System.EventHandler(this.toCart3_Click);
             // 
             // label27
             // 
@@ -782,29 +798,29 @@
             this.label30.TabIndex = 21;
             this.label30.Text = "( ρ";
             // 
-            // textBox25
+            // textzz3
             // 
-            this.textBox25.Location = new System.Drawing.Point(371, 328);
-            this.textBox25.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(107, 22);
-            this.textBox25.TabIndex = 20;
+            this.textzz3.Location = new System.Drawing.Point(371, 328);
+            this.textzz3.Margin = new System.Windows.Forms.Padding(4);
+            this.textzz3.Name = "textzz3";
+            this.textzz3.Size = new System.Drawing.Size(107, 22);
+            this.textzz3.TabIndex = 20;
             // 
-            // textBox26
+            // textTeta3
             // 
-            this.textBox26.Location = new System.Drawing.Point(217, 328);
-            this.textBox26.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(107, 22);
-            this.textBox26.TabIndex = 19;
+            this.textTeta3.Location = new System.Drawing.Point(217, 328);
+            this.textTeta3.Margin = new System.Windows.Forms.Padding(4);
+            this.textTeta3.Name = "textTeta3";
+            this.textTeta3.Size = new System.Drawing.Size(107, 22);
+            this.textTeta3.TabIndex = 19;
             // 
-            // textBox27
+            // textR3
             // 
-            this.textBox27.Location = new System.Drawing.Point(63, 328);
-            this.textBox27.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(107, 22);
-            this.textBox27.TabIndex = 18;
+            this.textR3.Location = new System.Drawing.Point(63, 328);
+            this.textR3.Margin = new System.Windows.Forms.Padding(4);
+            this.textR3.Name = "textR3";
+            this.textR3.Size = new System.Drawing.Size(107, 22);
+            this.textR3.TabIndex = 18;
             // 
             // label8
             // 
@@ -887,53 +903,56 @@
             this.label1.TabIndex = 10;
             this.label1.Text = "( r";
             // 
-            // textBox10
+            // textZ3
             // 
-            this.textBox10.Location = new System.Drawing.Point(847, 327);
-            this.textBox10.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(107, 22);
-            this.textBox10.TabIndex = 9;
+            this.textZ3.Location = new System.Drawing.Point(847, 327);
+            this.textZ3.Margin = new System.Windows.Forms.Padding(4);
+            this.textZ3.Name = "textZ3";
+            this.textZ3.Size = new System.Drawing.Size(107, 22);
+            this.textZ3.TabIndex = 9;
             // 
-            // textBox9
+            // textY3
             // 
-            this.textBox9.Location = new System.Drawing.Point(693, 327);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(107, 22);
-            this.textBox9.TabIndex = 8;
+            this.textY3.Location = new System.Drawing.Point(693, 327);
+            this.textY3.Margin = new System.Windows.Forms.Padding(4);
+            this.textY3.Name = "textY3";
+            this.textY3.Size = new System.Drawing.Size(107, 22);
+            this.textY3.TabIndex = 8;
             // 
-            // textBox8
+            // textX3
             // 
-            this.textBox8.Location = new System.Drawing.Point(539, 327);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(107, 22);
-            this.textBox8.TabIndex = 7;
+            this.textX3.Location = new System.Drawing.Point(539, 327);
+            this.textX3.Margin = new System.Windows.Forms.Padding(4);
+            this.textX3.Name = "textX3";
+            this.textX3.Size = new System.Drawing.Size(107, 22);
+            this.textX3.TabIndex = 7;
             // 
-            // textBox7
+            // textPhi3
             // 
-            this.textBox7.Location = new System.Drawing.Point(587, 152);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(107, 22);
-            this.textBox7.TabIndex = 6;
+            this.textPhi3.Location = new System.Drawing.Point(587, 152);
+            this.textPhi3.Margin = new System.Windows.Forms.Padding(4);
+            this.textPhi3.Name = "textPhi3";
+            this.textPhi3.Size = new System.Drawing.Size(107, 22);
+            this.textPhi3.TabIndex = 6;
+            this.textPhi3.TextChanged += new System.EventHandler(this.textPhi_TextChanged);
             // 
-            // textBox5
+            // textTheta3
             // 
-            this.textBox5.Location = new System.Drawing.Point(433, 152);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(107, 22);
-            this.textBox5.TabIndex = 5;
+            this.textTheta3.Location = new System.Drawing.Point(433, 152);
+            this.textTheta3.Margin = new System.Windows.Forms.Padding(4);
+            this.textTheta3.Name = "textTheta3";
+            this.textTheta3.Size = new System.Drawing.Size(107, 22);
+            this.textTheta3.TabIndex = 5;
+            this.textTheta3.TextChanged += new System.EventHandler(this.textTheta_TextChanged);
             // 
-            // textBox6
+            // textRho3
             // 
-            this.textBox6.Location = new System.Drawing.Point(279, 152);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(107, 22);
-            this.textBox6.TabIndex = 3;
+            this.textRho3.Location = new System.Drawing.Point(279, 152);
+            this.textRho3.Margin = new System.Windows.Forms.Padding(4);
+            this.textRho3.Name = "textRho3";
+            this.textRho3.Size = new System.Drawing.Size(107, 22);
+            this.textRho3.TabIndex = 3;
+            this.textRho3.TextChanged += new System.EventHandler(this.textRho_TextChanged);
             // 
             // _3DCOORDINATES
             // 
@@ -962,81 +981,82 @@
         private System.Windows.Forms.TabPage Cartesian;
         private System.Windows.Forms.TabPage Cylindrical;
         private System.Windows.Forms.TabPage Spherical;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textRho3;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textZ3;
+        private System.Windows.Forms.TextBox textY3;
+        private System.Windows.Forms.TextBox textX3;
+        private System.Windows.Forms.TextBox textPhi3;
+        private System.Windows.Forms.TextBox textTheta3;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.HScrollBar hScrollBar1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button toCylin3;
+        private System.Windows.Forms.Button toCart3;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.TextBox textBox26;
-        private System.Windows.Forms.TextBox textBox27;
+        private System.Windows.Forms.TextBox textzz3;
+        private System.Windows.Forms.TextBox textTeta3;
+        private System.Windows.Forms.TextBox textR3;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.HScrollBar hScrollBar2;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button toCart2;
+        private System.Windows.Forms.Button toSphe2;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.TextBox textBox24;
+        private System.Windows.Forms.TextBox textPhi2;
+        private System.Windows.Forms.TextBox textTheta2;
+        private System.Windows.Forms.TextBox textRho2;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox textZ1;
+        private System.Windows.Forms.TextBox textY1;
+        private System.Windows.Forms.TextBox textX1;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox textPhi1;
+        private System.Windows.Forms.TextBox textTheta1;
+        private System.Windows.Forms.TextBox textRho1;
         private System.Windows.Forms.Label CartesianLabel;
         private System.Windows.Forms.HScrollBar hScrollBar3;
-        private System.Windows.Forms.Button Carte2Cylind;
-        private System.Windows.Forms.Button Carte2Sphere;
+        private System.Windows.Forms.Button toCylin1;
+        private System.Windows.Forms.Button toSphe1;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.TextBox textzz1;
+        private System.Windows.Forms.TextBox textTeta1;
+        private System.Windows.Forms.TextBox textR1;
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.TextBox textBox21;
+        private System.Windows.Forms.TextBox textzz2;
+        private System.Windows.Forms.TextBox textY2;
+        private System.Windows.Forms.TextBox textX2;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.TextBox textZ2;
+        private System.Windows.Forms.TextBox textTeta2;
+        private System.Windows.Forms.TextBox textR2;
         private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.Label MsgLabel;
     }
 }
 
