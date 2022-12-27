@@ -54,7 +54,7 @@ namespace _3DCoordinates
             _Phi = 0;
         }
 
-        public Cartesian ToCartesian() //type and methodname
+        public Cartesian ToCartesian3() //type and methodname
         {
             Cartesian temp = new Cartesian();
 
@@ -66,7 +66,7 @@ namespace _3DCoordinates
         }
 
         //for Cylindrical
-        public Cylindrical ToCylindrical() //type and methodname 
+        public Cylindrical ToCylindrical3() //type and methodname 
 
         {
             Cylindrical temp = new Cylindrical();

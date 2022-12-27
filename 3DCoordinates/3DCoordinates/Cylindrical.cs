@@ -54,7 +54,7 @@ namespace _3DCoordinates
             _ZZ = 0;
         }
 
-        public Cartesian ToCartesian() //type and methodname
+        public Cartesian ToCartesian2() //type and methodname
         {
             Cartesian temp = new Cartesian();
 
@@ -67,7 +67,7 @@ namespace _3DCoordinates
         }
 
         //for Spehrical
-        public Spherical ToSpherical() //type and methodname
+        public Spherical ToSpherical2() //type and methodname
         {
             Spherical temp = new Spherical();
 

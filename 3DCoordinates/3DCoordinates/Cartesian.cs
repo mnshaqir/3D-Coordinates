@@ -54,22 +54,22 @@ namespace _3DCoordinates
             _Y = 0;
             _Z = 0;
         }
-
+     
         //for Cylindrical
-        public Cylindrical ToCylindrical() //type and methodname 
+        public Cylindrical ToCylindrical1() //type and methodname 
 
         {
             Cylindrical temp = new Cylindrical();
 
-            temp.R = Math.Sqrt((X * X + Y * Y));
-            temp.ThetaC = Math.Atan(Y / X);
-            temp.ZZ = Z;
+            temp.R = Math.Sqrt((_X * _X + _Y * _Y));
+            temp.ThetaC = Math.Atan(_Y / _X);
+            temp.ZZ = _Z;
             return temp;
     
         }
 
         //for Spehrical
-        public Spherical ToSpherical() //type class and method name
+        public Spherical ToSpherical1() //type class and method name
         {
             Spherical temp = new Spherical();
 
