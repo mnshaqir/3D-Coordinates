@@ -60,13 +60,14 @@ namespace _3DCoordinates
         }
 
         private void toSphe1_Click(object sender, EventArgs e)
-
+            
         {
+            Spherical asphe = new Spherical();
             asphe = myCartesian.ToSpherical1();
 
-            textRho1.Text = aspherical.X.ToString();
-            textTheta1.Text = aspherical.Y.ToString();
-            textPhi1.Text = aspherical.Z.ToString();
+            textRho1.Text = asphe.Rho.ToString();
+            textTheta1.Text = asphe.ThetaS.ToString();
+            textPhi1.Text = asphe.Phi.ToString();
         }
 
         //*****************************************//

@@ -73,9 +73,9 @@ namespace _3DCoordinates
         {
             Spherical temp = new Spherical();
 
-            temp.Rho = X * X + Y * Y + Z * Z;
-            temp.ThetaS = Math.Atan(Y / X);
-            temp.Phi = X * Math.Acos(Z / Math.Sqrt(X * X + Y * Y + Z * Z));
+            temp.Rho = Math.Sqrt(_X * _X + _Y * _Y + _Z * _Z);
+            temp.ThetaS = Math.Atan(_Y / _X);
+            temp.Phi = Math.Atan((Math.Sqrt(_X * _X + _Y * _Y))/  _Z );
 
             return temp;
 
