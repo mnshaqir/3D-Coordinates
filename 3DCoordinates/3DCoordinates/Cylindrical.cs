@@ -58,9 +58,9 @@ namespace _3DCoordinates
         {
             Cartesian temp = new Cartesian();
 
-            temp.X = R * Math.Cos(ThetaC);
-            temp.Y = R * Math.Sin(ThetaC);
-            temp.Z = ZZ;
+            temp.X = _R * Math.Cos(_ThetaC);
+            temp.Y = _R * Math.Sin(_ThetaC);
+            temp.Z = _ZZ;
             return temp;
 
 
@@ -71,9 +71,9 @@ namespace _3DCoordinates
         {
             Spherical temp = new Spherical();
 
-            temp.Rho = Math.Sqrt(R * R + ZZ * ZZ);
-            temp.ThetaS = ThetaC;
-            temp.Phi = Math.Acos(ZZ / (Math.Sqrt(R * R + ZZ * ZZ)));
+            temp.Rho = Math.Sqrt(_R * _R + _ZZ * _ZZ);
+            temp.ThetaS = _ThetaC;
+            temp.Phi = Math.Atan(_R / _ZZ);
 
             return temp;
 

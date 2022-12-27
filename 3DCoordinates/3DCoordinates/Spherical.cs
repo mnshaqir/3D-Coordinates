@@ -58,9 +58,9 @@ namespace _3DCoordinates
         {
             Cartesian temp = new Cartesian();
 
-            temp.X = Rho * Math.Sin(Phi);
-            temp.Y = ThetaS;
-            temp.Z = Rho * Math.Cos(Phi);
+            temp.X = (_Rho * (Math.Sin(_Phi)) * (Math.Cos(_ThetaS)));
+            temp.Y = (_Rho * (Math.Sin(_Phi)) * (Math.Sin(_ThetaS)));
+            temp.Z = (_Rho * (Math.Cos(_Phi)));
             return temp;
 
         }
@@ -71,9 +71,9 @@ namespace _3DCoordinates
         {
             Cylindrical temp = new Cylindrical();
 
-            temp.R = Rho * Math.Cos(ThetaS) * Math.Sin(Phi);
-            temp.ThetaC = Rho * Math.Sin(ThetaS) * Math.Sin(Phi);
-            temp.ZZ = Rho * Math.Cos(Phi);
+            temp.R = _Rho * Math.Sin(_Phi);
+            temp.ThetaC = _ThetaS;
+            temp.ZZ = _Rho * Math.Cos(_Phi);
             return temp;
 
         }

@@ -29,15 +29,12 @@ namespace _3DCoordinates
             double temp2;
             double temp3;
             
-            Cylindrical acylin = new Cylindrical(); 
-            
-
             try
             {
                 temp1 = Convert.ToInt32(textX1.Text);
                 temp2 = Convert.ToInt32(textY1.Text);
                 temp3 = Convert.ToInt32(textZ1.Text);
-
+                MessageLabel1.Text = "Message: -";
             }
 
             catch (Exception excep)
@@ -50,7 +47,7 @@ namespace _3DCoordinates
             myCartesian.Y = temp2;
             myCartesian.Z = temp3;
 
-
+            Cylindrical acylin = new Cylindrical();
             acylin = myCartesian.ToCylindrical1();
 
 
@@ -79,36 +76,46 @@ namespace _3DCoordinates
         private void toCart2_Click(object sender, EventArgs e)
         {
 
-            int temp;
+            double temp4;
+            double temp5;
+            double temp6;
 
             try
             {
-                temp = Convert.ToInt32(textR2.Text);
-                temp = Convert.ToInt32(textTeta2.Text);
-                temp = Convert.ToInt32(textZ2.Text);
-
+                temp4 = Convert.ToInt32(textR2.Text);
+                temp5 = Convert.ToInt32(textTeta2.Text);
+                temp6 = Convert.ToInt32(textZ2.Text);
+                MessageLabel2.Text = "Message: -";
             }
 
             catch (Exception excep)
             {
-                MessageLabel1.Text = "Message: Please give a valid value";
+                MessageLabel2.Text = "Message: Please give a valid value";
                 return;
             }
 
-            myCylindrical.ToCartesian2();
+            myCylindrical.R = temp4;
+            myCylindrical.ThetaC = temp5;
+            myCylindrical.ZZ = temp6;
 
-            textX2.Text = myCylindrical.R.ToString();
-            textY2.Text = myCylindrical.ThetaC.ToString();
-            textzz2.Text = myCylindrical.ZZ.ToString();
+            Cartesian bcarte = new Cartesian();
+            bcarte = myCylindrical.ToCartesian2();
+
+            textX2.Text = bcarte.X.ToString();
+            textY2.Text = bcarte.Y.ToString();
+            textzz2.Text = bcarte.Z.ToString();
         }
 
         private void toSphe2_Click(object sender, EventArgs e)
         {
-            myCylindrical.ToSpherical2();
 
-            textRho2.Text = myCylindrical.R.ToString();
-            textTheta2.Text = myCylindrical.ThetaC.ToString();
-            textPhi2.Text = myCylindrical.ZZ.ToString();
+
+            Spherical bsphe = new Spherical();
+            bsphe = myCylindrical.ToSpherical2();
+
+            textRho2.Text = bsphe.Rho.ToString();
+            textTheta2.Text = bsphe.ThetaS.ToString();
+            textPhi2.Text = bsphe.Phi.ToString();
         }
 
           //*********************************************//
@@ -118,22 +125,47 @@ namespace _3DCoordinates
            //************ SPHERICAL *********************//
         private void toCylin3_Click(object sender, EventArgs e)
         {
-            mySpherical.ToCylindrical3();
+            double temp7;
+            double temp8;
+            double temp9;
 
-            textR3.Text = mySpherical.Rho.ToString();
-            textTeta3.Text = mySpherical.ThetaS.ToString();
-            textzz3.Text = mySpherical.Phi.ToString();
+            try
+            {
+                temp7 = Convert.ToInt32(textRho3.Text);
+                temp8 = Convert.ToInt32(textTheta3.Text);
+                temp9 = Convert.ToInt32(textPhi3.Text);
+                MessageLabel3.Text = "Message: -";
+            }
+
+            catch (Exception excep)
+            {
+                MessageLabel3.Text = "Message: Please give a valid value";
+                return;
+            }
+
+            mySpherical.Rho = temp7;
+            mySpherical.ThetaS = temp8;
+            mySpherical.Phi = temp9;
+
+            Cylindrical ccylin = new Cylindrical();
+            ccylin = mySpherical.ToCylindrical3();
+
+            textR3.Text = ccylin.R.ToString();
+            textTeta3.Text = ccylin.ThetaC.ToString();
+            textzz3.Text = ccylin.ZZ.ToString();
         }
 
 
 
         private void toCart3_Click(object sender, EventArgs e)
         {
-            mySpherical.ToCartesian3();
 
-            textX3.Text = mySpherical.Rho.ToString();
-            textY3.Text = mySpherical.ThetaS.ToString();
-            textZ3.Text = mySpherical.Phi.ToString();
+            Cartesian ccarte = new Cartesian();
+            ccarte = mySpherical.ToCartesian3();
+
+            textX3.Text = ccarte.X.ToString();
+            textY3.Text = ccarte.Y.ToString();
+            textZ3.Text = ccarte.Z.ToString();
         }
 
 
