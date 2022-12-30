@@ -37,9 +37,9 @@ namespace _3DCoordinates
 
             try
             {
-                temp1 = Convert.ToInt32(textX1.Text);
-                temp2 = Convert.ToInt32(textY1.Text);
-                temp3 = Convert.ToInt32(textZ1.Text);
+                temp1 = Convert.ToDouble(textX1.Text);
+                temp2 = Convert.ToDouble(textY1.Text);
+                temp3 = Convert.ToDouble(textZ1.Text);
                 MessageLabel1.Text = "Message: -";
             }
 
@@ -72,9 +72,9 @@ namespace _3DCoordinates
 
             try
             {
-                temp1 = Convert.ToInt32(textX1.Text);
-                temp2 = Convert.ToInt32(textY1.Text);
-                temp3 = Convert.ToInt32(textZ1.Text);
+                temp1 = Convert.ToDouble(textX1.Text);
+                temp2 = Convert.ToDouble(textY1.Text);
+                temp3 = Convert.ToDouble(textZ1.Text);
                 MessageLabel1.Text = "Message: -";
             }
 
@@ -130,9 +130,9 @@ namespace _3DCoordinates
 
             try
             {
-                temp4 = Convert.ToInt32(textR2.Text);
-                temp5 = Convert.ToInt32(textTeta2.Text);
-                temp6 = Convert.ToInt32(textZ2.Text);
+                temp4 = Convert.ToDouble(textR2.Text);
+                temp5 = Convert.ToDouble(textTeta2.Text);
+                temp6 = Convert.ToDouble(textZ2.Text);
                 MessageLabel2.Text = "Message: -";
             }
 
@@ -162,9 +162,9 @@ namespace _3DCoordinates
 
             try
             {
-                temp4 = Convert.ToInt32(textR2.Text);
-                temp5 = Convert.ToInt32(textTeta2.Text);
-                temp6 = Convert.ToInt32(textZ2.Text);
+                temp4 = Convert.ToDouble(textR2.Text);
+                temp5 = Convert.ToDouble(textTeta2.Text);
+                temp6 = Convert.ToDouble(textZ2.Text);
                 MessageLabel2.Text = "Message: -";
             }
 
@@ -215,9 +215,9 @@ namespace _3DCoordinates
 
             try
             {
-                temp7 = Convert.ToInt32(textRho3.Text);
-                temp8 = Convert.ToInt32(textTheta3.Text);
-                temp9 = Convert.ToInt32(textPhi3.Text);
+                temp7 = Convert.ToDouble(textRho3.Text);
+                temp8 = Convert.ToDouble(textTheta3.Text);
+                temp9 = Convert.ToDouble(textPhi3.Text);
                 MessageLabel3.Text = "Message: -";
             }
 
@@ -249,9 +249,9 @@ namespace _3DCoordinates
 
             try
             {
-                temp7 = Convert.ToInt32(textRho3.Text);
-                temp8 = Convert.ToInt32(textTheta3.Text);
-                temp9 = Convert.ToInt32(textPhi3.Text);
+                temp7 = Convert.ToDouble(textRho3.Text);
+                temp8 = Convert.ToDouble(textTheta3.Text);
+                temp9 = Convert.ToDouble(textPhi3.Text);
                 MessageLabel3.Text = "Message: -";
             }
 
