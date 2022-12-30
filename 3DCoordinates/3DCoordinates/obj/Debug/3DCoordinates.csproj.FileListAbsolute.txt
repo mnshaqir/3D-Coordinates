@@ -75,8 +75,6 @@ C:\Users\Hp\Desktop\3D-Coordinates-main\3D-Coordinates-main\3DCoordinates\3DCoor
 C:\Users\PSCAD\Desktop\Hello\3DCoordinates2\3DCoordinates\3DCoordinates\bin\Debug\3DCoordinates.exe.config
 C:\Users\PSCAD\Desktop\Hello\3DCoordinates2\3DCoordinates\3DCoordinates\bin\Debug\3DCoordinates.exe
 C:\Users\PSCAD\Desktop\Hello\3DCoordinates2\3DCoordinates\3DCoordinates\bin\Debug\3DCoordinates.pdb
-C:\Users\PSCAD\Desktop\Hello\3DCoordinates2\3DCoordinates\3DCoordinates\obj\Debug\3DCoordinates.csproj.AssemblyReference.cache
-C:\Users\PSCAD\Desktop\Hello\3DCoordinates2\3DCoordinates\3DCoordinates\obj\Debug\3DCoordinates.csproj.SuggestedBindingRedirects.cache
 C:\Users\PSCAD\Desktop\Hello\3DCoordinates2\3DCoordinates\3DCoordinates\obj\Debug\_3DCoordinates._3DCOORDINATES.resources
 C:\Users\PSCAD\Desktop\Hello\3DCoordinates2\3DCoordinates\3DCoordinates\obj\Debug\_3DCoordinates.Properties.Resources.resources
 C:\Users\PSCAD\Desktop\Hello\3DCoordinates2\3DCoordinates\3DCoordinates\obj\Debug\3DCoordinates.csproj.GenerateResource.cache

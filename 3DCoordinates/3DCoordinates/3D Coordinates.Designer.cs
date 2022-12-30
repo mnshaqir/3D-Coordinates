@@ -30,6 +30,7 @@
         {
             this.Tab1 = new System.Windows.Forms.TabControl();
             this.Cartesian = new System.Windows.Forms.TabPage();
+            this.Clearbutton1 = new System.Windows.Forms.Button();
             this.MessageLabel1 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -54,6 +55,7 @@
             this.textR1 = new System.Windows.Forms.TextBox();
             this.label39 = new System.Windows.Forms.Label();
             this.Cylindrical = new System.Windows.Forms.TabPage();
+            this.Clearbutton2 = new System.Windows.Forms.Button();
             this.MessageLabel2 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
@@ -77,6 +79,7 @@
             this.toCart2 = new System.Windows.Forms.Button();
             this.toSphe2 = new System.Windows.Forms.Button();
             this.Spherical = new System.Windows.Forms.TabPage();
+            this.Clearbutton3 = new System.Windows.Forms.Button();
             this.MessageLabel3 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.toCylin3 = new System.Windows.Forms.Button();
@@ -99,9 +102,6 @@
             this.textPhi3 = new System.Windows.Forms.TextBox();
             this.textTheta3 = new System.Windows.Forms.TextBox();
             this.textRho3 = new System.Windows.Forms.TextBox();
-            this.Clearbutton1 = new System.Windows.Forms.Button();
-            this.Clearbutton2 = new System.Windows.Forms.Button();
-            this.Clearbutton3 = new System.Windows.Forms.Button();
             this.Tab1.SuspendLayout();
             this.Cartesian.SuspendLayout();
             this.Cylindrical.SuspendLayout();
@@ -152,6 +152,17 @@
             this.Cartesian.Size = new System.Drawing.Size(777, 409);
             this.Cartesian.TabIndex = 0;
             this.Cartesian.Text = "Cartesian";
+            this.Cartesian.Click += new System.EventHandler(this.Cartesian_Click);
+            // 
+            // Clearbutton1
+            // 
+            this.Clearbutton1.Location = new System.Drawing.Point(121, 226);
+            this.Clearbutton1.Name = "Clearbutton1";
+            this.Clearbutton1.Size = new System.Drawing.Size(81, 23);
+            this.Clearbutton1.TabIndex = 97;
+            this.Clearbutton1.Text = "Clear";
+            this.Clearbutton1.UseVisualStyleBackColor = true;
+            this.Clearbutton1.Click += new System.EventHandler(this.Clearbutton1_Click);
             // 
             // MessageLabel1
             // 
@@ -380,6 +391,16 @@
             this.Cylindrical.TabIndex = 1;
             this.Cylindrical.Text = "Cylindrical";
             // 
+            // Clearbutton2
+            // 
+            this.Clearbutton2.Location = new System.Drawing.Point(119, 233);
+            this.Clearbutton2.Name = "Clearbutton2";
+            this.Clearbutton2.Size = new System.Drawing.Size(81, 25);
+            this.Clearbutton2.TabIndex = 86;
+            this.Clearbutton2.Text = "Clear";
+            this.Clearbutton2.UseVisualStyleBackColor = true;
+            this.Clearbutton2.Click += new System.EventHandler(this.Clearbutton2_Click);
+            // 
             // MessageLabel2
             // 
             this.MessageLabel2.AutoSize = true;
@@ -600,6 +621,16 @@
             this.Spherical.TabIndex = 2;
             this.Spherical.Text = "Spherical";
             // 
+            // Clearbutton3
+            // 
+            this.Clearbutton3.Location = new System.Drawing.Point(142, 229);
+            this.Clearbutton3.Name = "Clearbutton3";
+            this.Clearbutton3.Size = new System.Drawing.Size(81, 23);
+            this.Clearbutton3.TabIndex = 34;
+            this.Clearbutton3.Text = "Clear";
+            this.Clearbutton3.UseVisualStyleBackColor = true;
+            this.Clearbutton3.Click += new System.EventHandler(this.Clearbutton3_Click);
+            // 
             // MessageLabel3
             // 
             this.MessageLabel3.AutoSize = true;
@@ -786,36 +817,6 @@
             this.textRho3.Name = "textRho3";
             this.textRho3.Size = new System.Drawing.Size(81, 20);
             this.textRho3.TabIndex = 3;
-            // 
-            // Clearbutton1
-            // 
-            this.Clearbutton1.Location = new System.Drawing.Point(121, 226);
-            this.Clearbutton1.Name = "Clearbutton1";
-            this.Clearbutton1.Size = new System.Drawing.Size(81, 23);
-            this.Clearbutton1.TabIndex = 97;
-            this.Clearbutton1.Text = "Clear";
-            this.Clearbutton1.UseVisualStyleBackColor = true;
-            this.Clearbutton1.Click += new System.EventHandler(this.Clearbutton1_Click);
-            // 
-            // Clearbutton2
-            // 
-            this.Clearbutton2.Location = new System.Drawing.Point(119, 233);
-            this.Clearbutton2.Name = "Clearbutton2";
-            this.Clearbutton2.Size = new System.Drawing.Size(81, 25);
-            this.Clearbutton2.TabIndex = 86;
-            this.Clearbutton2.Text = "Clear";
-            this.Clearbutton2.UseVisualStyleBackColor = true;
-            this.Clearbutton2.Click += new System.EventHandler(this.Clearbutton2_Click);
-            // 
-            // Clearbutton3
-            // 
-            this.Clearbutton3.Location = new System.Drawing.Point(142, 229);
-            this.Clearbutton3.Name = "Clearbutton3";
-            this.Clearbutton3.Size = new System.Drawing.Size(81, 23);
-            this.Clearbutton3.TabIndex = 34;
-            this.Clearbutton3.Text = "Clear";
-            this.Clearbutton3.UseVisualStyleBackColor = true;
-            this.Clearbutton3.Click += new System.EventHandler(this.Clearbutton3_Click);
             // 
             // _3DCOORDINATES
             // 
