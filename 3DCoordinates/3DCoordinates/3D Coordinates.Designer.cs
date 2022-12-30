@@ -30,6 +30,7 @@
         {
             this.Tab1 = new System.Windows.Forms.TabControl();
             this.Cartesian = new System.Windows.Forms.TabPage();
+            this.MessageLabel1 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
@@ -53,6 +54,7 @@
             this.textR1 = new System.Windows.Forms.TextBox();
             this.label39 = new System.Windows.Forms.Label();
             this.Cylindrical = new System.Windows.Forms.TabPage();
+            this.MessageLabel2 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
@@ -77,7 +79,6 @@
             this.Spherical = new System.Windows.Forms.TabPage();
             this.MessageLabel3 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
-            this.hScrollBar1 = new System.Windows.Forms.HScrollBar();
             this.toCylin3 = new System.Windows.Forms.Button();
             this.toCart3 = new System.Windows.Forms.Button();
             this.label28 = new System.Windows.Forms.Label();
@@ -98,8 +99,9 @@
             this.textPhi3 = new System.Windows.Forms.TextBox();
             this.textTheta3 = new System.Windows.Forms.TextBox();
             this.textRho3 = new System.Windows.Forms.TextBox();
-            this.MessageLabel1 = new System.Windows.Forms.Label();
-            this.MessageLabel2 = new System.Windows.Forms.Label();
+            this.Clearbutton1 = new System.Windows.Forms.Button();
+            this.Clearbutton2 = new System.Windows.Forms.Button();
+            this.Clearbutton3 = new System.Windows.Forms.Button();
             this.Tab1.SuspendLayout();
             this.Cartesian.SuspendLayout();
             this.Cylindrical.SuspendLayout();
@@ -119,6 +121,8 @@
             // 
             // Cartesian
             // 
+            this.Cartesian.BackColor = System.Drawing.Color.Silver;
+            this.Cartesian.Controls.Add(this.Clearbutton1);
             this.Cartesian.Controls.Add(this.MessageLabel1);
             this.Cartesian.Controls.Add(this.label10);
             this.Cartesian.Controls.Add(this.label11);
@@ -144,11 +148,19 @@
             this.Cartesian.Controls.Add(this.label39);
             this.Cartesian.Location = new System.Drawing.Point(4, 22);
             this.Cartesian.Name = "Cartesian";
-            this.Cartesian.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.Cartesian.Padding = new System.Windows.Forms.Padding(3);
             this.Cartesian.Size = new System.Drawing.Size(777, 409);
             this.Cartesian.TabIndex = 0;
             this.Cartesian.Text = "Cartesian";
-            this.Cartesian.UseVisualStyleBackColor = true;
+            // 
+            // MessageLabel1
+            // 
+            this.MessageLabel1.AutoSize = true;
+            this.MessageLabel1.Location = new System.Drawing.Point(104, 285);
+            this.MessageLabel1.Name = "MessageLabel1";
+            this.MessageLabel1.Size = new System.Drawing.Size(56, 13);
+            this.MessageLabel1.TabIndex = 96;
+            this.MessageLabel1.Text = "Message :";
             // 
             // label10
             // 
@@ -249,7 +261,7 @@
             // CartesianLabel
             // 
             this.CartesianLabel.AutoSize = true;
-            this.CartesianLabel.Location = new System.Drawing.Point(108, 62);
+            this.CartesianLabel.Location = new System.Drawing.Point(104, 78);
             this.CartesianLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.CartesianLabel.Name = "CartesianLabel";
             this.CartesianLabel.Size = new System.Drawing.Size(110, 13);
@@ -266,7 +278,7 @@
             // toCylin1
             // 
             this.toCylin1.BackColor = System.Drawing.Color.Transparent;
-            this.toCylin1.Location = new System.Drawing.Point(292, 58);
+            this.toCylin1.Location = new System.Drawing.Point(293, 226);
             this.toCylin1.Name = "toCylin1";
             this.toCylin1.Size = new System.Drawing.Size(120, 23);
             this.toCylin1.TabIndex = 80;
@@ -278,7 +290,7 @@
             // toSphe1
             // 
             this.toSphe1.BackColor = System.Drawing.Color.Transparent;
-            this.toSphe1.Location = new System.Drawing.Point(495, 60);
+            this.toSphe1.Location = new System.Drawing.Point(499, 227);
             this.toSphe1.Name = "toSphe1";
             this.toSphe1.Size = new System.Drawing.Size(120, 22);
             this.toSphe1.TabIndex = 79;
@@ -337,6 +349,8 @@
             // 
             // Cylindrical
             // 
+            this.Cylindrical.BackColor = System.Drawing.Color.Silver;
+            this.Cylindrical.Controls.Add(this.Clearbutton2);
             this.Cylindrical.Controls.Add(this.MessageLabel2);
             this.Cylindrical.Controls.Add(this.label25);
             this.Cylindrical.Controls.Add(this.label26);
@@ -361,11 +375,19 @@
             this.Cylindrical.Controls.Add(this.toSphe2);
             this.Cylindrical.Location = new System.Drawing.Point(4, 22);
             this.Cylindrical.Name = "Cylindrical";
-            this.Cylindrical.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.Cylindrical.Padding = new System.Windows.Forms.Padding(3);
             this.Cylindrical.Size = new System.Drawing.Size(777, 409);
             this.Cylindrical.TabIndex = 1;
             this.Cylindrical.Text = "Cylindrical";
-            this.Cylindrical.UseVisualStyleBackColor = true;
+            // 
+            // MessageLabel2
+            // 
+            this.MessageLabel2.AutoSize = true;
+            this.MessageLabel2.Location = new System.Drawing.Point(102, 292);
+            this.MessageLabel2.Name = "MessageLabel2";
+            this.MessageLabel2.Size = new System.Drawing.Size(56, 13);
+            this.MessageLabel2.TabIndex = 85;
+            this.MessageLabel2.Text = "Message :";
             // 
             // label25
             // 
@@ -514,7 +536,7 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(102, 62);
+            this.label18.Location = new System.Drawing.Point(102, 79);
             this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(113, 13);
@@ -524,7 +546,7 @@
             // toCart2
             // 
             this.toCart2.BackColor = System.Drawing.Color.Transparent;
-            this.toCart2.Location = new System.Drawing.Point(296, 58);
+            this.toCart2.Location = new System.Drawing.Point(299, 233);
             this.toCart2.Name = "toCart2";
             this.toCart2.Size = new System.Drawing.Size(120, 23);
             this.toCart2.TabIndex = 55;
@@ -536,7 +558,7 @@
             // toSphe2
             // 
             this.toSphe2.BackColor = System.Drawing.Color.Transparent;
-            this.toSphe2.Location = new System.Drawing.Point(504, 62);
+            this.toSphe2.Location = new System.Drawing.Point(506, 234);
             this.toSphe2.Name = "toSphe2";
             this.toSphe2.Size = new System.Drawing.Size(120, 22);
             this.toSphe2.TabIndex = 54;
@@ -547,9 +569,10 @@
             // 
             // Spherical
             // 
+            this.Spherical.BackColor = System.Drawing.Color.Silver;
+            this.Spherical.Controls.Add(this.Clearbutton3);
             this.Spherical.Controls.Add(this.MessageLabel3);
             this.Spherical.Controls.Add(this.label31);
-            this.Spherical.Controls.Add(this.hScrollBar1);
             this.Spherical.Controls.Add(this.toCylin3);
             this.Spherical.Controls.Add(this.toCart3);
             this.Spherical.Controls.Add(this.label28);
@@ -572,16 +595,15 @@
             this.Spherical.Controls.Add(this.textRho3);
             this.Spherical.Location = new System.Drawing.Point(4, 22);
             this.Spherical.Name = "Spherical";
-            this.Spherical.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.Spherical.Padding = new System.Windows.Forms.Padding(3);
             this.Spherical.Size = new System.Drawing.Size(777, 409);
             this.Spherical.TabIndex = 2;
             this.Spherical.Text = "Spherical";
-            this.Spherical.UseVisualStyleBackColor = true;
             // 
             // MessageLabel3
             // 
             this.MessageLabel3.AutoSize = true;
-            this.MessageLabel3.Location = new System.Drawing.Point(120, 261);
+            this.MessageLabel3.Location = new System.Drawing.Point(126, 271);
             this.MessageLabel3.Name = "MessageLabel3";
             this.MessageLabel3.Size = new System.Drawing.Size(56, 13);
             this.MessageLabel3.TabIndex = 33;
@@ -590,24 +612,17 @@
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(123, 73);
+            this.label31.Location = new System.Drawing.Point(126, 86);
             this.label31.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(110, 13);
             this.label31.TabIndex = 32;
             this.label31.Text = "Spherical Coordinates";
             // 
-            // hScrollBar1
-            // 
-            this.hScrollBar1.Location = new System.Drawing.Point(284, 115);
-            this.hScrollBar1.Name = "hScrollBar1";
-            this.hScrollBar1.Size = new System.Drawing.Size(6, 8);
-            this.hScrollBar1.TabIndex = 31;
-            // 
             // toCylin3
             // 
             this.toCylin3.BackColor = System.Drawing.Color.Transparent;
-            this.toCylin3.Location = new System.Drawing.Point(297, 73);
+            this.toCylin3.Location = new System.Drawing.Point(298, 230);
             this.toCylin3.Name = "toCylin3";
             this.toCylin3.Size = new System.Drawing.Size(120, 23);
             this.toCylin3.TabIndex = 30;
@@ -619,7 +634,7 @@
             // toCart3
             // 
             this.toCart3.BackColor = System.Drawing.Color.Transparent;
-            this.toCart3.Location = new System.Drawing.Point(490, 74);
+            this.toCart3.Location = new System.Drawing.Point(499, 230);
             this.toCart3.Name = "toCart3";
             this.toCart3.Size = new System.Drawing.Size(120, 22);
             this.toCart3.TabIndex = 25;
@@ -772,23 +787,35 @@
             this.textRho3.Size = new System.Drawing.Size(81, 20);
             this.textRho3.TabIndex = 3;
             // 
-            // MessageLabel1
+            // Clearbutton1
             // 
-            this.MessageLabel1.AutoSize = true;
-            this.MessageLabel1.Location = new System.Drawing.Point(110, 246);
-            this.MessageLabel1.Name = "MessageLabel1";
-            this.MessageLabel1.Size = new System.Drawing.Size(56, 13);
-            this.MessageLabel1.TabIndex = 96;
-            this.MessageLabel1.Text = "Message :";
+            this.Clearbutton1.Location = new System.Drawing.Point(121, 226);
+            this.Clearbutton1.Name = "Clearbutton1";
+            this.Clearbutton1.Size = new System.Drawing.Size(81, 23);
+            this.Clearbutton1.TabIndex = 97;
+            this.Clearbutton1.Text = "Clear";
+            this.Clearbutton1.UseVisualStyleBackColor = true;
+            this.Clearbutton1.Click += new System.EventHandler(this.Clearbutton1_Click);
             // 
-            // MessageLabel2
+            // Clearbutton2
             // 
-            this.MessageLabel2.AutoSize = true;
-            this.MessageLabel2.Location = new System.Drawing.Point(110, 265);
-            this.MessageLabel2.Name = "MessageLabel2";
-            this.MessageLabel2.Size = new System.Drawing.Size(56, 13);
-            this.MessageLabel2.TabIndex = 85;
-            this.MessageLabel2.Text = "Message :";
+            this.Clearbutton2.Location = new System.Drawing.Point(119, 233);
+            this.Clearbutton2.Name = "Clearbutton2";
+            this.Clearbutton2.Size = new System.Drawing.Size(81, 25);
+            this.Clearbutton2.TabIndex = 86;
+            this.Clearbutton2.Text = "Clear";
+            this.Clearbutton2.UseVisualStyleBackColor = true;
+            this.Clearbutton2.Click += new System.EventHandler(this.Clearbutton2_Click);
+            // 
+            // Clearbutton3
+            // 
+            this.Clearbutton3.Location = new System.Drawing.Point(142, 229);
+            this.Clearbutton3.Name = "Clearbutton3";
+            this.Clearbutton3.Size = new System.Drawing.Size(81, 23);
+            this.Clearbutton3.TabIndex = 34;
+            this.Clearbutton3.Text = "Clear";
+            this.Clearbutton3.UseVisualStyleBackColor = true;
+            this.Clearbutton3.Click += new System.EventHandler(this.Clearbutton3_Click);
             // 
             // _3DCOORDINATES
             // 
@@ -827,7 +854,6 @@
         private System.Windows.Forms.TextBox textX3;
         private System.Windows.Forms.TextBox textPhi3;
         private System.Windows.Forms.TextBox textTheta3;
-        private System.Windows.Forms.HScrollBar hScrollBar1;
         private System.Windows.Forms.Button toCylin3;
         private System.Windows.Forms.Button toCart3;
         private System.Windows.Forms.Label label28;
@@ -883,6 +909,9 @@
         private System.Windows.Forms.TextBox textTheta2;
         private System.Windows.Forms.Label MessageLabel1;
         private System.Windows.Forms.Label MessageLabel2;
+        private System.Windows.Forms.Button Clearbutton1;
+        private System.Windows.Forms.Button Clearbutton2;
+        private System.Windows.Forms.Button Clearbutton3;
     }
 }
 

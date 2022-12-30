@@ -39,7 +39,7 @@ namespace _3DCoordinates
 
             catch (Exception excep)
             {
-                MessageLabel1.Text = "Message: Please give a valid value";
+                MessageLabel1.Text = "Message: Please give a valid value.";
                 return;
             }
 
@@ -67,6 +67,24 @@ namespace _3DCoordinates
             textPhi1.Text = asphe.Phi.ToString();
         }
 
+        private void Clearbutton1_Click(object sender, EventArgs e)
+        {
+            {
+                Action<Control.ControlCollection> func = null;
+
+                func = (controls) =>
+                {
+                    foreach (Control control in controls)
+                        if (control is TextBox)
+                            (control as TextBox).Clear();
+                        else
+                            func(control.Controls);
+                };
+
+                func(Controls);
+            }
+        }
+
         //*****************************************//
 
 
@@ -90,7 +108,7 @@ namespace _3DCoordinates
 
             catch (Exception excep)
             {
-                MessageLabel2.Text = "Message: Please give a valid value";
+                MessageLabel2.Text = "Message: Please give a valid value.";
                 return;
             }
 
@@ -118,11 +136,29 @@ namespace _3DCoordinates
             textPhi2.Text = bsphe.Phi.ToString();
         }
 
-          //*********************************************//
+        private void Clearbutton2_Click(object sender, EventArgs e)
+        {
+            {
+                Action<Control.ControlCollection> func = null;
+
+                func = (controls) =>
+                {
+                    foreach (Control control in controls)
+                        if (control is TextBox)
+                            (control as TextBox).Clear();
+                        else
+                            func(control.Controls);
+                };
+
+                func(Controls);
+            }
+        }
+
+        //*********************************************//
 
 
 
-           //************ SPHERICAL *********************//
+        //************ SPHERICAL *********************//
         private void toCylin3_Click(object sender, EventArgs e)
         {
             double temp7;
@@ -139,7 +175,7 @@ namespace _3DCoordinates
 
             catch (Exception excep)
             {
-                MessageLabel3.Text = "Message: Please give a valid value";
+                MessageLabel3.Text = "Message: Please give a valid value.";
                 return;
             }
 
@@ -168,6 +204,25 @@ namespace _3DCoordinates
             textZ3.Text = ccarte.Z.ToString();
         }
 
+    
+
+        private void Clearbutton3_Click(object sender, EventArgs e)
+        {
+            {
+                Action<Control.ControlCollection> func = null;
+
+                func = (controls) =>
+                {
+                    foreach (Control control in controls)
+                        if (control is TextBox)
+                            (control as TextBox).Clear();
+                        else
+                            func(control.Controls);
+                };
+
+                func(Controls);
+            }
+        }
 
         //********************************//
 
