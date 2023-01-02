@@ -1,0 +1,6 @@
+C:\Users\ACER\source\repos\3DCoordinatesLibrary\3DCoordinatesLibrary\bin\Debug\3DCoordinatesLibrary.dll
+C:\Users\ACER\source\repos\3DCoordinatesLibrary\3DCoordinatesLibrary\bin\Debug\3DCoordinatesLibrary.pdb
+C:\Users\ACER\source\repos\3DCoordinatesLibrary\3DCoordinatesLibrary\obj\Debug\3DCoordinatesLibrary.csprojAssemblyReference.cache
+C:\Users\ACER\source\repos\3DCoordinatesLibrary\3DCoordinatesLibrary\obj\Debug\3DCoordinatesLibrary.csproj.CoreCompileInputs.cache
+C:\Users\ACER\source\repos\3DCoordinatesLibrary\3DCoordinatesLibrary\obj\Debug\3DCoordinatesLibrary.dll
+C:\Users\ACER\source\repos\3DCoordinatesLibrary\3DCoordinatesLibrary\obj\Debug\3DCoordinatesLibrary.pdb
