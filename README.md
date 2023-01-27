@@ -31,31 +31,6 @@ namespace _3DCoordinates
         }
         // CARTERSIAN PART //
 
-        private void toCylin1_Click(object sender, EventArgs e)
-        {
-            double temp1;
-            double temp2;
-            double temp3;
-
-            try
-            {
-                temp1 = Convert.ToDouble(textX1.Text);
-                temp2 = Convert.ToDouble(textY1.Text);
-                temp3 = Convert.ToDouble(textZ1.Text);
-                MessageLabel1.Text = "Message: -";
-            }
-
-
-            catch (Exception excep)
-            {
-                MessageLabel1.Text = "Message: Please give a valid value.";
-                return;
-            }
-
-            myCartesian.X = temp1;
-            myCartesian.Y = temp2;
-            myCartesian.Z = temp3;
-
             Cylindrical acylin = new Cylindrical();
             acylin = myCartesian.ToCylindrical1();
 
