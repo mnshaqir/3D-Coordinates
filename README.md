@@ -114,7 +114,7 @@ namespace _3DCoordinates
 
 So the task that have been assigned to our group is 3D Coordinates.
 
-# GOAL STANDARD
+# GOLD STANDARD
 
 The Goal Standard of this project is to make the conversion between Cartesian Coordinate, Cylindrical Coordinates and Spherical Coordinates.
 
