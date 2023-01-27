@@ -30,7 +30,10 @@ namespace _3DCoordinates
             InitializeComponent();
         }
         // CARTERSIAN PART //
-
+        
+        private void toCylin1_Click(object sender, EventArgs e)
+        
+        {
             Cylindrical acylin = new Cylindrical();
             acylin = myCartesian.ToCylindrical1();
 
@@ -41,31 +44,8 @@ namespace _3DCoordinates
         }
 
         private void toSphe1_Click(object sender, EventArgs e)
-            
+           
         {
-            double temp1;
-            double temp2;
-            double temp3;
-
-            try
-            {
-                temp1 = Convert.ToDouble(textX1.Text);
-                temp2 = Convert.ToDouble(textY1.Text);
-                temp3 = Convert.ToDouble(textZ1.Text);
-                MessageLabel1.Text = "Message: -";
-            }
-
-
-            catch (Exception excep)
-            {
-                MessageLabel1.Text = "Message: Please give a valid value.";
-                return;
-            }
-
-            myCartesian.X = temp1;
-            myCartesian.Y = temp2;
-            myCartesian.Z = temp3;
-
             Spherical asphe = new Spherical();
             asphe = myCartesian.ToSpherical1();
 
@@ -74,52 +54,12 @@ namespace _3DCoordinates
             textPhi1.Text = asphe.Phi.ToString();
         }
 
-        private void Clearbutton1_Click(object sender, EventArgs e)
-        {
-            {
-                textX1.Clear();
-                textY1.Clear();
-                textZ1.Clear();
-                textR1.Clear();
-                textTeta1.Clear();
-                textzz1.Clear();
-                textRho1.Clear();
-                textTheta1.Clear();
-                textPhi1.Clear();
-                MessageLabel1.Text = "Message: ";
-
-               
-            }
-        }
-
+      
   
         // CYLINDRICAL PART //
 
         private void toCart2_Click(object sender, EventArgs e)
         {
-
-            double temp4;
-            double temp5;
-            double temp6;
-
-            try
-            {
-                temp4 = Convert.ToDouble(textR2.Text);
-                temp5 = Convert.ToDouble(textTeta2.Text);
-                temp6 = Convert.ToDouble(textZ2.Text);
-                MessageLabel2.Text = "Message: -";
-            }
-
-            catch (Exception excep)
-            {
-                MessageLabel2.Text = "Message: Please give a valid value.";
-                return;
-            }
-
-            myCylindrical.R = temp4;
-            myCylindrical.ThetaC = temp5;
-            myCylindrical.ZZ = temp6;
-
             Cartesian bcarte = new Cartesian();
             bcarte = myCylindrical.ToCartesian2();
 
