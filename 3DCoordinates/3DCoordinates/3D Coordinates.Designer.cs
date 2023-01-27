@@ -220,6 +220,7 @@
             this.textX1.Name = "textX1";
             this.textX1.Size = new System.Drawing.Size(81, 20);
             this.textX1.TabIndex = 90;
+            
             // 
             // label13
             // 

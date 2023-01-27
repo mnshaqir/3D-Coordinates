@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>3DCoordinatesLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:_3DCoordinatesLibrary.Cartesian">
+            <summary>
+            The class Cartesian, used to represent a Cartesian coordinates.
+            </summary>
+        </member>
+        <member name="F:_3DCoordinatesLibrary.Cartesian._X">
+            <summary>
+            the variable the used to represent Cartesian coordinate.
+            </summary>
+        </member>
+        <member name="P:_3DCoordinatesLibrary.Cartesian.X">
+            <summary>
+            The variable X in Cartesian coordinate.
+            </summary>
+        </member>
+        <member name="P:_3DCoordinatesLibrary.Cartesian.Y">
+            <summary>
+            The variable Y in Cartesian coordinate.
+            </summary>
+        </member>
+        <member name="P:_3DCoordinatesLibrary.Cartesian.Z">
+            <summary>
+            The variable Z in Cartesian coordinate.
+            </summary>
+        </member>
+        <member name="M:_3DCoordinatesLibrary.Cartesian.#ctor">
+            <summary>
+            The three parameter constructor with X, Y and Z variable.
+            </summary>
+        </member>
+        <member name="M:_3DCoordinatesLibrary.Cartesian.ToCylindrical1">
+            <summary>
+            The Cartesian to Cylindrical coordinates conversion formula.
+            </summary>
+        </member>
+        <member name="M:_3DCoordinatesLibrary.Cartesian.ToSpherical1">
+            <summary>
+            The Cartesian to Spherical coordinates conversion formula.
+            </summary>
+        </member>
+        <member name="T:_3DCoordinatesLibrary.Cylindrical">
+            <summary>
+            The class Cylindrical, used to represent a Cylindrical coordinates.
+            </summary>
+        </member>
+        <member name="F:_3DCoordinatesLibrary.Cylindrical._R">
+            <summary>
+            The variable the used to represent Cylindrical coordinate.
+            </summary>
+        </member>
+        <member name="P:_3DCoordinatesLibrary.Cylindrical.R">
+            <summary>
+            The variable R in Cylindrical coordinate.
+            </summary>
+        </member>
+        <member name="P:_3DCoordinatesLibrary.Cylindrical.ThetaC">
+            <summary>
+            The variable Theta in Cylindrical coordinate.
+            </summary>
+        </member>
+        <member name="P:_3DCoordinatesLibrary.Cylindrical.ZZ">
+            <summary>
+            The variable Z in Cylindrical coordinate.
+            </summary>
+        </member>
+        <member name="M:_3DCoordinatesLibrary.Cylindrical.#ctor">
+            <summary>
+            The three parameter constructor with R, Theta and Z variable.
+            </summary>
+        </member>
+        <member name="M:_3DCoordinatesLibrary.Cylindrical.ToCartesian2">
+            <summary>
+            The Cylindrical to Cartesian coordinates conversion formula.
+            </summary>
+        </member>
+        <member name="M:_3DCoordinatesLibrary.Cylindrical.ToSpherical2">
+            <summary>
+            The Cylindrical to Spherical coordinates conversion formula.
+            </summary>
+        </member>
+        <member name="T:_3DCoordinatesLibrary.Spherical">
+            <summary>
+            The class Spherical, used to represent a Spherical coordinates.
+            </summary>
+        </member>
+        <member name="F:_3DCoordinatesLibrary.Spherical._Rho">
+            <summary>
+            The variable the used to represent Spherical coordinate.
+            </summary>
+        </member>
+        <member name="P:_3DCoordinatesLibrary.Spherical.Rho">
+            <summary>
+            The variable Rho in Spherical coordinate.
+            </summary>
+        </member>
+        <member name="P:_3DCoordinatesLibrary.Spherical.ThetaS">
+            <summary>
+            The variable Theta in Spherical coordinate.
+            </summary>
+        </member>
+        <member name="P:_3DCoordinatesLibrary.Spherical.Phi">
+            <summary>
+            The variable Phi in Spherical coordinate.
+            </summary>      
+        </member>
+        <member name="M:_3DCoordinatesLibrary.Spherical.#ctor">
+            <summary>
+            The three parameter constructor with Rho, Theta and Phi variable.
+            </summary>
+        </member>
+        <member name="M:_3DCoordinatesLibrary.Spherical.ToCartesian3">
+            <summary>
+            The Spherical to Cartesian coordinates conversion formula.
+            </summary>
+        </member>
+        <member name="M:_3DCoordinatesLibrary.Spherical.ToCylindrical3">
+            <summary>
+            The Spherical to Cylindrical coordinates conversion formula.
+            </summary>
+        </member>
+    </members>
+</doc>
