@@ -54,22 +54,28 @@ namespace _3DCoordinates
             _Y = 0;
             _Z = 0;
         }
+        public Cartesian(double P1,double P2, double P3)
+        {
+            _X = P1;
+            _Y = P2;
+            _Z = P3;
+        }
      
         //for Cylindrical
-        public Cylindrical ToCylindrical1() //type and methodname 
+        public Cylindrical ToCylindrical() //type and methodname 
 
         {
             Cylindrical temp = new Cylindrical();
 
             temp.R = Math.Sqrt((_X * _X + _Y * _Y));
             temp.ThetaC = Math.Atan(_Y / _X);
-            temp.ZZ = _Z;
+            temp.Z = _Z;
             return temp;
     
         }
 
         //for Spehrical
-        public Spherical ToSpherical1() //type class and method name
+        public Spherical ToSpherical() //type class and method name
         {
             Spherical temp = new Spherical();
 

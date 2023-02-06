@@ -95,3 +95,23 @@ C:\Users\PSCAD\Desktop\3D Coordinates\3D Coordinates Library\3DCoordinates\3DCoo
 C:\Users\PSCAD\Desktop\3D Coordinates\3D Coordinates Library\3DCoordinates\3DCoordinates\obj\Debug\3DCoordinates.csproj.CopyComplete
 C:\Users\PSCAD\Desktop\3D Coordinates\3D Coordinates Library\3DCoordinates\3DCoordinates\obj\Debug\3DCoordinates.exe
 C:\Users\PSCAD\Desktop\3D Coordinates\3D Coordinates Library\3DCoordinates\3DCoordinates\obj\Debug\3DCoordinates.pdb
+C:\Users\Hp\Desktop\3D-Coordinates\3DCoordinates\3DCoordinates\bin\Debug\3DCoordinates.exe.config
+C:\Users\Hp\Desktop\3D-Coordinates\3DCoordinates\3DCoordinates\bin\Debug\3DCoordinates.exe
+C:\Users\Hp\Desktop\3D-Coordinates\3DCoordinates\3DCoordinates\bin\Debug\3DCoordinates.pdb
+C:\Users\Hp\Desktop\3D-Coordinates\3DCoordinates\3DCoordinates\obj\Debug\_3DCoordinates._3DCOORDINATES.resources
+C:\Users\Hp\Desktop\3D-Coordinates\3DCoordinates\3DCoordinates\obj\Debug\_3DCoordinates.Properties.Resources.resources
+C:\Users\Hp\Desktop\3D-Coordinates\3DCoordinates\3DCoordinates\obj\Debug\3DCoordinates.csproj.GenerateResource.cache
+C:\Users\Hp\Desktop\3D-Coordinates\3DCoordinates\3DCoordinates\obj\Debug\3DCoordinates.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\3D-Coordinates\3DCoordinates\3DCoordinates\obj\Debug\3DCoordinates.csproj.CopyComplete
+C:\Users\Hp\Desktop\3D-Coordinates\3DCoordinates\3DCoordinates\obj\Debug\3DCoordinates.exe
+C:\Users\Hp\Desktop\3D-Coordinates\3DCoordinates\3DCoordinates\obj\Debug\3DCoordinates.pdb
+C:\Users\Hp\Desktop\3D-Coordinates\3D-Coordinates\3DCoordinates\3DCoordinates\bin\Debug\3DCoordinates.exe.config
+C:\Users\Hp\Desktop\3D-Coordinates\3D-Coordinates\3DCoordinates\3DCoordinates\bin\Debug\3DCoordinates.exe
+C:\Users\Hp\Desktop\3D-Coordinates\3D-Coordinates\3DCoordinates\3DCoordinates\bin\Debug\3DCoordinates.pdb
+C:\Users\Hp\Desktop\3D-Coordinates\3D-Coordinates\3DCoordinates\3DCoordinates\obj\Debug\_3DCoordinates._3DCOORDINATES.resources
+C:\Users\Hp\Desktop\3D-Coordinates\3D-Coordinates\3DCoordinates\3DCoordinates\obj\Debug\_3DCoordinates.Properties.Resources.resources
+C:\Users\Hp\Desktop\3D-Coordinates\3D-Coordinates\3DCoordinates\3DCoordinates\obj\Debug\3DCoordinates.csproj.GenerateResource.cache
+C:\Users\Hp\Desktop\3D-Coordinates\3D-Coordinates\3DCoordinates\3DCoordinates\obj\Debug\3DCoordinates.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\3D-Coordinates\3D-Coordinates\3DCoordinates\3DCoordinates\obj\Debug\3DCoordinates.csproj.CopyComplete
+C:\Users\Hp\Desktop\3D-Coordinates\3D-Coordinates\3DCoordinates\3DCoordinates\obj\Debug\3DCoordinates.exe
+C:\Users\Hp\Desktop\3D-Coordinates\3D-Coordinates\3DCoordinates\3DCoordinates\obj\Debug\3DCoordinates.pdb

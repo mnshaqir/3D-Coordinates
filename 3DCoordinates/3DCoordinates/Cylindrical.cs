@@ -10,7 +10,7 @@ namespace _3DCoordinates
     {
             double _R;  //properties
             double _ThetaC;
-            double _ZZ; 
+            double _Z; 
 
             public double R //setter and getter
             {
@@ -35,15 +35,15 @@ namespace _3DCoordinates
                 _ThetaC = value;
                 }
             }
-            public double ZZ
+            public double Z
             {
                 get
                 {
-                    return _ZZ;
+                    return _Z;
                 }
                 set
                 {
-                    _ZZ = value;
+                    _Z = value;
                 }
             }
         //constructer
@@ -51,29 +51,36 @@ namespace _3DCoordinates
         {
             _R = 0;
             _ThetaC = 0;
-            _ZZ = 0;
+            _Z = 0;
+        }
+        public Cylindrical(double P1, double P2, double P3)  //constructer
+        {
+            _R = P1;
+            _ThetaC = P2;
+            _Z = P3;
         }
 
-        public Cartesian ToCartesian2() //type and methodname
+
+        public Cartesian ToCartesian() //type and methodname
         {
             Cartesian temp = new Cartesian();
 
             temp.X = _R * Math.Cos(_ThetaC);
             temp.Y = _R * Math.Sin(_ThetaC);
-            temp.Z = _ZZ;
+            temp.Z = _Z;
             return temp;
 
 
         }
 
         //for Spehrical
-        public Spherical ToSpherical2() //type and methodname
+        public Spherical ToSpherical() //type and methodname
         {
             Spherical temp = new Spherical();
 
-            temp.Rho = Math.Sqrt(_R * _R + _ZZ * _ZZ);
+            temp.Rho = Math.Sqrt(_R * _R + _Z * _Z);
             temp.ThetaS = _ThetaC;
-            temp.Phi = Math.Atan(_R / _ZZ);
+            temp.Phi = Math.Atan(_R / _Z);
 
             return temp;
 

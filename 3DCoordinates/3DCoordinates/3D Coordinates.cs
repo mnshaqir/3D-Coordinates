@@ -55,12 +55,12 @@ namespace _3DCoordinates
             myCartesian.Z = temp3;
 
             Cylindrical acylin = new Cylindrical();
-            acylin = myCartesian.ToCylindrical1();
+            acylin = myCartesian.ToCylindrical();
 
 
             textR1.Text = acylin.R.ToString();
             textTeta1.Text = acylin.ThetaC.ToString();
-            textzz1.Text = acylin.ZZ.ToString();
+            textzz1.Text = acylin.Z.ToString();
         }
 
         private void toSphe1_Click(object sender, EventArgs e)
@@ -90,7 +90,7 @@ namespace _3DCoordinates
             myCartesian.Z = temp3;
 
             Spherical asphe = new Spherical();
-            asphe = myCartesian.ToSpherical1();
+            asphe = myCartesian.ToSpherical();
 
             textRho1.Text = asphe.Rho.ToString();
             textTheta1.Text = asphe.ThetaS.ToString();
@@ -144,10 +144,10 @@ namespace _3DCoordinates
 
             myCylindrical.R = temp4;
             myCylindrical.ThetaC = temp5;
-            myCylindrical.ZZ = temp6;
+            myCylindrical.Z = temp6;
 
             Cartesian bcarte = new Cartesian();
-            bcarte = myCylindrical.ToCartesian2();
+            bcarte = myCylindrical.ToCartesian();
 
             textX2.Text = bcarte.X.ToString();
             textY2.Text = bcarte.Y.ToString();
@@ -176,10 +176,10 @@ namespace _3DCoordinates
 
             myCylindrical.R = temp4;
             myCylindrical.ThetaC = temp5;
-            myCylindrical.ZZ = temp6;
+            myCylindrical.Z = temp6;
 
             Spherical bsphe = new Spherical();
-            bsphe = myCylindrical.ToSpherical2();
+            bsphe = myCylindrical.ToSpherical();
 
             textRho2.Text = bsphe.Rho.ToString();
             textTheta2.Text = bsphe.ThetaS.ToString();
@@ -232,11 +232,11 @@ namespace _3DCoordinates
             mySpherical.Phi = temp9;
 
             Cylindrical ccylin = new Cylindrical();
-            ccylin = mySpherical.ToCylindrical3();
+            ccylin = mySpherical.ToCylindrical();
 
             textR3.Text = ccylin.R.ToString();
             textTeta3.Text = ccylin.ThetaC.ToString();
-            textzz3.Text = ccylin.ZZ.ToString();
+            textzz3.Text = ccylin.Z.ToString();
         }
 
 
@@ -266,7 +266,7 @@ namespace _3DCoordinates
             mySpherical.Phi = temp9;
 
             Cartesian ccarte = new Cartesian();
-            ccarte = mySpherical.ToCartesian3();
+            ccarte = mySpherical.ToCartesian();
 
             textX3.Text = ccarte.X.ToString();
             textY3.Text = ccarte.Y.ToString();

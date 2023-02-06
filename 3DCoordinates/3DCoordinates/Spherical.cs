@@ -53,8 +53,14 @@ namespace _3DCoordinates
             _ThetaS = 0;
             _Phi = 0;
         }
+        public Spherical(double P1, double P2, double P3)
+        {
+            _Rho = P1;
+            _ThetaS = P2;
+            _Phi = P3;
+        }
 
-        public Cartesian ToCartesian3() //type and methodname
+        public Cartesian ToCartesian() //type and methodname
         {
             Cartesian temp = new Cartesian();
 
@@ -66,14 +72,14 @@ namespace _3DCoordinates
         }
 
         //for Cylindrical
-        public Cylindrical ToCylindrical3() //type and methodname 
+        public Cylindrical ToCylindrical() //type and methodname 
 
         {
             Cylindrical temp = new Cylindrical();
 
             temp.R = _Rho * Math.Sin(_Phi);
             temp.ThetaC = _ThetaS;
-            temp.ZZ = _Rho * Math.Cos(_Phi);
+            temp.Z = _Rho * Math.Cos(_Phi);
             return temp;
 
         }
