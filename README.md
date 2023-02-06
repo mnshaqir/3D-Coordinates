@@ -21,6 +21,8 @@ This is gold standard for 3D coordinates converter.
 
 6) Spherical to Cylindrical https://www.mathforengineers.com/math-calculators/spherical-to-cylindrical-coordinates.html
 
+Spherical to cylindrical and cartesion
+![image](https://user-images.githubusercontent.com/116859757/216933577-a64fd03c-9dd1-4073-9f2b-2948d47af6f8.png)
 
 
 
