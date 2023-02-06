@@ -22,15 +22,19 @@ This is gold standard for 3D coordinates converter.
 6) Spherical to Cylindrical https://www.mathforengineers.com/math-calculators/spherical-to-cylindrical-coordinates.html
 
 # GUIDANCE OF COORDINATES CONVERSION
+__#NOTES__
 All the value insert and conversion are using __radian unit__.
 
-__Cartesian to Cylindrical and Spherical__
+__1) Cartesian to Cylindrical and Spherical__
+
 ![image](https://user-images.githubusercontent.com/116859757/216935132-c0f2f35d-31fd-490b-ac6e-b654d6291d28.png)
 
-__Cylindrical to Cartesian and Spherical__
+__2) Cylindrical to Cartesian and Spherical__
+
 ![image](https://user-images.githubusercontent.com/116859757/216934319-7e0fcf05-f56a-4294-8a69-f9ea7deaf91c.png)
 
-__Spherical to Cylindrical and Cartesion__
+__3) Spherical to Cylindrical and Cartesion__
+
 ![image](https://user-images.githubusercontent.com/116859757/216933577-a64fd03c-9dd1-4073-9f2b-2948d47af6f8.png)
 
 
