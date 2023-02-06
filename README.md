@@ -23,7 +23,7 @@ This is gold standard for 3D coordinates converter.
 
 # GUIDANCE OF COORDINATES CONVERSION
 __#NOTES__
- All the value insert and conversion are using __radian unit__.
+ All the value insert and conversion are using __RADIAN UNIT__.
 
 __1) Cartesian to Cylindrical and Spherical__
 
